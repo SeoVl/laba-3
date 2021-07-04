@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Первый сайт</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css2? family = Raleway + Dots & family = Raleway: wght @ 100 & display = swap "rel =" stylesheet ">
+
+<body>
+
+<header>
+
+        <div class="logo">
+
+            <a href="index.html">
+
+                
+                <img class="graficlogo" id="sd" src="data:image/png;base64,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" alt="Logo">
+                 
+            </a>
+
+        </div>
+
+        <div class="MenuMain">
+            
+
+        <div class="Menu">
+
+            <nav>
+
+            <a href="#sd">HOME</a>           
+            <a href="#main">MAIN</a>
+            <a href="https://vk.com/tvsler" target="blank">CONTACT</a>
+            
+            </nav>
+            
+
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="main">
+
+    <div class="blog-container">
+
+        <div class="blog-header">
+
+            <div class="blog-cover">
+
+            </div>
+
+        </div>
+        
+        <div class="blog-title">
+
+<div class="avatar">
+
+<div class="Nik">
+
+            <h1><a href="#">Molechka</a></h1>
+
+        </div>
+
+        </div>
+
+            <h2>Лайфхаки: как получить больше обратной связи после собеседования</h2>
+
+        </div>
+
+        <div class="blog-text" id="main">
+
+            <p>Когда человек проходит собеседование или выполняет тестовое задание, компания даёт ему обратную связь: «вы красавчик, вот оффер / извините, вы нам не подходите». В случае отказа обычно примерно так и пишут: «извините, вы не подошли». А вот что именно было плохо и какие навыки нужно прокачать — непонятно!
+
+                Я хочу дать вам пару лайфхаков, как можно получить чуть больше обратной связи
+                Когда человек проходит собеседование или выполняет тестовое задание, компания даёт ему обратную связь: «вы красавчик, вот оффер / извините, вы нам не подходите». В случае отказа обычно примерно так и пишут: «извините, вы не подошли». А вот что именно было плохо и какие навыки нужно прокачать — непонятно!
+
+                Я хочу дать вам пару лайфхаков, как можно получить чуть больше обратной связи
+                Когда человек проходит собеседование или выполняет тестовое задание, компания даёт ему обратную связь: «вы красавчик, вот оффер / извините, вы нам не подходите». В случае отказа обычно примерно так и пишут: «извините, вы не подошли». А вот что именно было плохо и какие навыки нужно прокачать — непонятно!
+
+                Я хочу дать вам пару лайфхаков, как можно получить чуть больше обратной связи:
+                IPO — первая публичная продажа акций компании инвесторам на бирже. Прошлый, 2020 год выдался рекордным на количество бизнесов, которые на это решились. Впервые свои акции на бирже размещали даже давно известные всем компании — вроде сервиса краткосрочной аренды Airbnb. 2021-й, кажется, не собирается сбавлять обороты, и бум IPO продолжается. Только за первые месяцы этого года прошло сразу несколько крупных размещений: игровой онлайн-платформы Roblox, дейтингового сервиса Bumble и образовательного проекта Coursera.
+
+                Частных инвесторов IPO привлекает возможными большими доходностями — и этот инструмент считается очень спекулятивным. А еще, конечно, очень рискованным. При этом новички (а на российском рынке в IPO могут участвовать все частные инвесторы, даже с небольшим капиталом) часто даже не пытаются проанализировать бизнес, который покупают. Впрочем, и разобраться во всех нюансах непросто: ну, например, что такое локап-период и аллокация? И можно ли вообще предсказать, что размещение будет удачным? В новом выпуске «Калькулятора» Назар Щетинин и Андрей Ванин решили поговорить об IPO как об инструменте для частных инвесторов. Для этого ведущие позвали в студию Вячеслава Степанова, заместителя директора управления инвестиционного консультирования «Фридом Финанс». Эта инвестиционная компания помимо всего прочего помогает инвесторам, которым не хватает времени, знаний или опыта, принять участие в IPO, в том числе на американском рынке.
+                В Индии с начала апреля — взрывной рост новых случаев коронавирусной инфекции. В конце марта в стране с населением 1,4 миллиарда человек регистрировали около 70 тысяч новых случаев COVID-19 в сутки, в начале апреля — более 100 тысяч, а 22 апреля зафиксировали 314 835 заболевших за день — это исторический максимум в мире с начала пандемии. В Индии выявлены новые мутации коронавируса, которые еще предстоит исследовать ученым. Однако, отмечает The Guardian, резкий рост заболеваемости, скорее всего, вызван комплексом причин. После снижения официальных показателей заболеваемости в начале года ниже 10 тысяч случаев в сутки многие жители перестали соблюдать меры предосторожности, молодые индийцы стали реже тестироваться, решив, что им не угрожает заболевание в тяжелой форме, а власти смягчили ограничения, разрешив проведение массовых мероприятий, в том числе предвыборных митингов. Система здравоохранения Индии с трудом справляется с новой волной COVID-19. Больницы в крупнейших городах Индии заполнены почти на 80%, свободных коек в реанимациях почти не осталось, сообщается о нехватке кислорода для ИВЛ, пишет BBC News. 22 апреля также зафиксировано рекордное для Индии число умерших от COVID-19 — 2023 человека. Крематории работают с максимальной нагрузкой.
+            </p>
+            
+        </div>
+        
+    </div>
+</div>
+<hr width="100%">
+
+<div class = "comments">
+
+    <p class = "comments">
+        <br>
+         <br><br>
+                 Спасибо за интересную статью!
+    </p>
+    <a href = "#" class = "author_site">
+    <img src = "Photo/comment1.jpg" width = "45" height = "45" class = "images">
+    
+        Андрей </a>
+    02.03.2021 18:34 <br>
+
+    <p class = "comments">
+        <br>
+        <br><br>
+                 Интересная статья, побольше бы таких! 
+     </p>
+    <a href = "#" class = "author_site">
+    <img src = "Photo/comment2.jpg" width = "45" height = "45" class = "images">
+        
+        Алексей </a>
+    28.02.2021 9:23 <br>
+
+    <p class = "comments">
+        <br>
+         <br> <br>
+                 Я первый!
+    </p>
+    <a href = "#" class = "author_site">
+       
+    <img src = "Photo/comment3.jpg" width = "45" height = "45" class = "images">
+    Аноним  </a> 27.02.2021 11:41 
+    <br>
+    <br>
+    <br>
+
+ 
+
+
+<div class="bottom">
+
+    <a href="#sd">HOME</a>
+    <a href="#main">MAIN</a>
+    <a href="https://vk.com/tvsler" target="blank">CONTACT</a>
+    
+    </div>
+    
+       
+    </body>   
+    
+    </head>
+    
